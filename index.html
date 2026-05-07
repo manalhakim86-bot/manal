@@ -3,346 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-    <!--google font-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">
-<!--wow animate file-->
-<link rel="stylesheet" href="css/wow.min.css">
-<!-- animate css file-->
- <link rel="stylesheet" href="css/animate.min.css">
-   <!--fontawesome file--> 
-   <link rel="stylesheet" href="css/all.min.css">
-<!-- bootstrap css file-->
- <link rel="stylesheet"     href="css/bootstrap.min.css">
- <link rel="stylesheet" href="css/mdb.min.css">
+    <title>talwind</title>
+    <!--talwind file-->
+    <script src="js/browser@4.js"></script>
     <!--css file-->
-    <link rel="stylesheet"  href="css/style.css">
+    <link rel="sytlesheet" href="style.css">
 </head>
 <body>
-<header>
-  
-  <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <!-- Container wrapper -->
-  <div class="container-fluid">
-    <!-- Toggle button -->
-    <button
-      data-mdb-collapse-init
-      class="navbar-toggler"
-      type="button"
-      data-mdb-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <i class="fas fa-bars"></i>
-    </button>
-
-    <!-- Collapsible wrapper -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Navbar brand -->
-      <a class="navbar-brand mt-2 mt-lg-0" href="#">
-        <i class="fa-brands fa-cloudversify fa-2xl" style="color: rgb(116, 192, 252);"></i>
-      </a>
-      <!-- Left links -->
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Dashboard</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Team</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
-        </li>
-      </ul>
-      <!-- Left links -->
-    </div>
-    <!-- Collapsible wrapper -->
-
-    <!-- Right elements -->
-    <div class="d-flex align-items-center">
-      <!-- Icon -->
-      <a class="text-reset me-3" href="#">
-        <i class="fa-brands fa-cloudversify fa-2xl" style="color: rgb(116, 192, 252);"></i>
-      </a>
-
-      <!-- Notifications -->
-      <div class="dropdown">
-        <a
-          data-mdb-dropdown-init
-          class="text-reset me-3 dropdown-toggle hidden-arrow"
-          href="#"
-          id="navbarDropdownMenuLink"
-          role="button"
-          aria-expanded="false"
-        >
-          <i class="fas fa-bell"></i>
-          <span class="badge rounded-pill badge-notification bg-danger">1</span>
-        </a>
-        <ul
-          class="dropdown-menu dropdown-menu-end"
-          aria-labelledby="navbarDropdownMenuLink"
-        >
-          <li>
-            <a class="dropdown-item" href="#">Some news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Another news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </li>
-        </ul>
-      </div>
-      <!-- Avatar -->
-      <div class="dropdown">
-        <a
-          data-mdb-dropdown-init
-          class="dropdown-toggle d-flex align-items-center hidden-arrow"
-          href="#"
-          id="navbarDropdownMenuAvatar"
-          role="button"
-          aria-expanded="false"
-        >
-          <img
-            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-            class="rounded-circle"
-            height="25"
-            alt="Black and White Portrait of a Man"
-            loading="lazy"
-          />
-        </a>
-        <ul
-          class="dropdown-menu dropdown-menu-end"
-          aria-labelledby="navbarDropdownMenuAvatar"
-        >
-          <li>
-            <a class="dropdown-item" href="#">My profile</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Settings</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Logout</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- Right elements -->
-  </div>
-  <!-- Container wrapper -->
-</nav>
-<!-- Navbar -->
-  <!-- Navbar -->
-
-  <!-- Background image -->
-  <div
-    id="intro-example"
-    class="p-5 text-center bg-image"
-    style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');"
-  >
-    <div class="mask" style="background-color: rgba(95, 106, 117, 0.7);">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white">
-          <h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
-          <h5 class="mb-4">Best & free guide of responsive web design</h5>
-          <a
-            data-mdb-ripple-init
-            class="btn btn-outline-light btn-lg m-2"
-            href="https://www.youtube.com/watch?v=c9B4TPnak1A"
-            role="button"
-            rel="nofollow"
-            target="_blank"
-          >Start tutorial</a
-          >
-          <a
-            data-mdb-ripple-init
-            class="btn btn-outline-light btn-lg m-2"
-            href="https://mdbootstrap.com/docs/standard/"
-            target="_blank"
-            role="button"
-          >Download MDB UI KIT</a
-          >
+    <!--start navbar home-->
+    <nav class =" bg-red p-4">
+    <div class="w-[90%] m-auto  grid grid-cols-7 items-center ">
+   <h1 class="col-span-3 text-[28px] font-bold">bistro elgance </h1>
+    <ul class=" col-span-4  grid grid-cols-4 text-black gap-6 text-center">
+      <li><a class="col-span-1 md:col-span-2  text-[22px]  text-center hover:text-red-200 transition" href="#"> home</a></li>
+      <li><a class="col-span-1 md:col-span-2  text-[22px] text-center hover:text-red-200 transition" href="#"> menu</a></li>
+      <li><a class="col-span-1 md:col-span-2  text-[22px] text-center hover:text-red-200 transition" href="#"> reservations</a></li>
+      <li><a class="col-span-1 md:col-span-2  text-[22px] text-center hover:text-red-200 transition" href="#"> contact </a></li>
+    </ul>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- Background image -->
+    </nav>
+    <!--end navbar home-->
+
+    <!--start home header-->
+<header class="bg-[url(images/bg.jfif)] h-[500px] bg-cover bg-center m-2">
+<div class="w-[90%] m-auto">
+<h1 class="text-center font-bold p-5 pt-[55px] text-[60px]">welcom to bistero <br> elgance</h1>
+<p class="text-center font-bold p-5 pt-[20px] text-[20px] text-red  mb-[20px]" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptatibus.</p>
+<a class= " bg-red-300 font-bold p-5 pt-[18px] text-[25px] text-brown rounded-[50px] hover:text-red-200 transition m-auto text-center" href="#"> reserve your table </a>
+</div>
 </header>
- <div class="container my-5">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card">
-  <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid"/>
-    <a href="#!">
-      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-    </a>
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
-  </div>
-</div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-  <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid"/>
-    <a href="#!">
-      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-    </a>
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
-  </div>
-</div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-  <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid"/>
-    <a href="#!">
-      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-    </a>
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
-  </div>
-</div>
-        </div>
+    <!--end home header-->
+
+    <!--start body home-->
+    <div class="w-[80%] m-auto">
+        <h2 class="text-center font-bold text-[28px] m-auto mb-[5px] p-3"> our signture menu</h2>
+        <hr class="w-[70px] border-1 border-gray m-auto  ">
     </div>
- </div>
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-body-tertiary text-dark">
-  <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
+    <section class=" w-[80%] m-auto">
+        <div class="bg-red grid grid-cols-3 gap-[30px] ">
+            <div class="bg-gray-50 p-[30px]  lg:col-span-1 sm:col-span-3 md:col-span-2  text-center">
+            <img src="images/duck-confit.jpg"  class="w-75 h-[200px] rounded-lg">
+            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
+            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
+            <a  class="text-[20px] text-redred font-bold border border-red-400 rounded-[50px] p-1 pl-8 pr-8hover:text-red-200 transition" href="#"> view integrates</a>
+            </div>
 
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
+            <div class=" bg-gray-50 p-[30px]  lg:col-span-1 sm:col-span-3 md:col-span-2 text-center ">
+            <img src="images/grilled-salmon.jpg" class="w-full h-[200px]  rounded-lg">
+            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
+            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
+            <a  class="text-[20px] text-redred font-bold border border-red-400 rounded-[50px] p-1 pl-8 pr-8 hover:text-red-200 transition" href="#"> view integrates</a>
+            </div>
 
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
+            <div class="bg-gray-50  p-[30px]  lg:col-span-1 sm:col-span-3 md:col-span-2  text-center ">
+            <img src="images/lobster-thermidor.jpg" class="w-full h-[200px]  rounded-lg">
+            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
+            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
+            <a  class="text-[20px] text-redred font-bold border border-red-400 rounded-[50px] p-1 pl-8 pr-8 hover:text-red-200 transition" href="#"> view integrates</a>
+            </div>
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
+    </section>
+<section >
+        <div class="bg-red grid grid-cols-3 gap-[30px] m-5">
+            <div class="bg-gray-50 p-[30px] lg:col-span-1 sm:col-span-3 md:col-span-2  text-center">
+            <img src="images/chocolate-souffle.jpg"  class="w-full h-[200px]  rounded-lg">
+            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
+            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
+            <a  class="text-[20px] text-red font-bold border border-red-400 border rounded-[50px] p-1 pl-8 pr-8 hover:text-red-200 transition" href="#"> view integrates</a>
+            </div>
+            <div class=" bg-gray-50 p-[30px] lg:col-span-1 sm:col-span-3 md:col-span-2   text-center">
+            <img src="images/truffle-risotto.jpg" class="w-full h-[200px]  rounded-lg">
+            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
+            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
+            <a  class="text-[20px] text-red font-bold border border-red-400 border rounded-[50px] p-1 pl-8 pr-8 hover:text-red-200 transition" href="#"> view integrates</a>
+            </div>
+            <div class="bg-gray-50  p-[30px] text-center lg:col-span-1 sm:col-span-3 md:col-span-2 text-center">
+            <img src="images/beef-wellington.jpg" class="w-full h-[200px]  rounded-lg">
+            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
+            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
+            <a  class="text-center text-[20px] text-red font-bold border border-red-400 border rounded-[70px] p-1 pl-8 pr-8 hover:text-red-200 transition " href="#"> view integrates</a>
+            </div>
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
+    </section>
+    <!--end body home-->
+    <!--start reservation section -->
+      <section class=" bg-gray-100  h-[800px]">
+        <div class="w-[70%] m-auto grid grid-cols-2 gap-20 items-center"">
+            <div class="col-span-1">
+                <h1 class=" text-[25px] font-bold text-center m-[100px] mb-1">Make a Resrvation</h1>
+                <hr class="w-25 m-auto mb-5  text-gray-400 font-bold">
+            <form class="bg-gray-50 w-full p-4 rounded  sm:col-span-1  md:col-span-2 gap-4">
+                <input type="text" name="user" placeholder="Your Name"
+                class=" text-[20px] w-full border  border-gray-300 p-4 mb-4  rounded mt-2  ">
+                <input type="email" name="mail"placeholder="Your Name mail"
+                class=" text-[20px] w-full border border-gray-300 p-4 mb-4  rounded mt-2 "> 
+                <input type="number" name="phone" placeholder="Your phone number"
+                class=" text-[20px] w-full border border-gray-300 p-4 mb-4  rounded mt-2 ">
+                <input type="datetime-local" name="time/date"placeholder=""
+                class=" text-[20px] w-full border border-gray-300 p-4 mb-4  rounded mt-2 ">
+                <input type="time" name="time" placeholder="Your time"
+                class=" text-[20px] w-full border border-gray-300 p-4 mb-4  rounded mt-2 ">
+                <input type="number" name="count"placeholder="number of guests"
+                class=" text-[20px] w-full border border-gray-300 p-4 mb-4  rounded mt-2 ">
+                <textarea placeholder="Your Special Request"
+                 class=" text-[20px]w-full border border-gray-300 p-4 mb-4 rounded mt-2 col-span-2"
+                  >Special Request </textarea>
+                  <button class=" bg-red-500 text-[20px] w-full border border-red-300 p-4 mb-4 rounded mt-2 m-auto hover:text-yellow-600 transition ">reserve table </button>
+                </form> 
+            </div>
+            <div class=" w-full grid grid-cols-2 sm:grid-cols-1 ">
+                    <img src="images/restaurant-tables.jpg" class="  col-span-2 w-[1200px] h-[600px] object-cover rounded-lg   m-auto flex items-center justify-center">
+                </div>
         </div>
-        <!-- Grid column -->
+      </section>
 
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
 
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(14, 243, 205, 0.274);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+
+
+    <!--end reservation section -->
 
 
 
@@ -352,21 +130,14 @@
 
 
 
-<!--wow animate file js-->
-<script src="js/wow.min.js"></script>
-<script>
-              new WOW().init();
-              </script>
-<!--fontawesome file js-->
-<script src="js/all.min.js"></script>
-<!-- jquery file-->
-<script src="js/jquery.slim.min.js"></script>
-<!--popper file-->
-<script src="js/popper.min.js"></script>
-<!--start bootsrap file-->
-<script src="js/mdb.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+
+
+
+
+
+
+
+
 
 
 </body>
