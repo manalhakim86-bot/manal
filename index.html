@@ -3,157 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>talwind</title>
-    <!--talwind file-->
-    <script src="js/browser@4.js"></script>
-    <!--css file-->
-    <link rel="sytlesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!--start navbar home-->
-    <nav class="bg-black text-white p-4 fixed top-0 left-0 w-full z-50">
-    <div class="flex justify-between items-center">
-        <h1 class="text-2xl">bistro elgance</h1>
-         <input type="checkbox" id="menu-toggle" class="hidden peer">
-    <!-- Menu Button -->
-        <label for="menu-toggle" class="text-3xl cursor-pointer md:hidden">
-            ☰
-        </label>
-        <!-- Menu -->
-        <ul class="hidden peer-checked:block absolute top-16 left-0 w-full bg-black p-4
-                   md:flex md:static md:w-auto md:p-0 md:gap-6 md:block">
-      <li><a class="col-span-1 md:col-span-2  text-[22px]  text-center hover:text-red-200 transition" href="#"> home</a></li>
-      <li><a class="col-span-1 md:col-span-2  text-[22px] text-center hover:text-red-200 transition" href="#"> menu</a></li>
-      <li><a class="col-span-1 md:col-span-2  text-[22px] text-center hover:text-red-200 transition" href="#"> reservations</a></li>
-      <li><a class="col-span-1 md:col-span-2  text-[22px] text-center hover:text-red-200 transition" href="#"> contact </a></li>
-    </ul>
-        </div>
-    </nav>
-    <!--end navbar home-->
+   
+    <h1> my first java script code </h1>
+<center>
+<button onclick="document.getElementById('myimg').src='imgs/pic_bulbon.gif'">
+turn on light
+</button>
+<img id="myimg" src="imgs/pic_bulboff.gif">
 
-    <!--start home header-->
-<header class="bg-[url(images/bg.jfif)] h-[550px] bg-cover bg-center m-3">
-<div class="w-[90%] mx-auto text-center ">
-<h1 class="text-center font-bold p-5 pt-[55px] text-[50px]">welcome to bistero <br> elgance</h1>
-<p class="text-center font-bold p-5 pt-[20px] text-[20px] text-red  mb-[20px]" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptatibus.</p>
-<a class= "text-center bg-red-300 font-bold p-5 pt-[10px] text-[25px] text-brown rounded-[50px] hover:text-red-200 transition mx-auto block w-fit " href="#"> reserve your table </a>
-</div>
-</header>
-    <!--end home header-->
+<button onclick="document.getElementById('myimg').src='imgs/pic_bulboff.gif'"> turn off light </button>
 
-    <!--start body home-->
-    <div class="w-[80%] m-auto">
-        <h2 class="text-center font-bold text-[28px] m-auto mb-[5px] p-3"> our signture menu</h2>
-        <hr class="w-[70px] border-1 border-gray m-auto  ">
-    </div>
-    <section class=" w-[80%] m-auto">
-        <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] ">
-            <div class="bg-gray-50 p-[20px]  text-center">
-            <img src="images/duck-confit.jpg"  class="w-full h-[200px] rounded-lg">
-            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
-            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
-            <a  class="text-[20px] text-redred font-bold border border-red-400 rounded-[50px] p-1 pl-8 pr-8hover:text-red-200 transition" href="#"> view integrates</a>
-            </div>
-
-            <div class=" bg-gray-50 p-[20px]   text-center ">
-            <img src="images/grilled-salmon.jpg" class="w-full h-[200px]  rounded-lg">
-            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
-            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
-            <a  class="text-[20px] text-redred font-bold border border-red-400 rounded-[50px] p-1 pl-8 pr-8 hover:text-red-200 transition" href="#"> view integrates</a>
-            </div>
-
-            <div class="bg-gray-50 p-[20px]  text-center ">
-            <img src="images/lobster-thermidor.jpg" class="w-full h-[200px]  rounded-lg">
-            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
-            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
-            <a  class="text-[20px] text-redred font-bold border border-red-400 rounded-[50px] p-1 pl-8 pr-8 hover:text-red-200 transition" href="#"> view integrates</a>
-            </div>
-        </div>
-    </section>
-<section >
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] m-5">
-            <div class="bg-gray-50 p-[20px]  text-center">
-            <img src="images/chocolate-souffle.jpg" class="w-full h-[200px] rounded-lg">
-            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
-            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
-            <a  class="text-[20px] text-red font-bold border border-red-400 border rounded-[50px] p-1 pl-8 pr-8 hover:text-red-200 transition" href="#"> view integrates</a>
-            </div>
-            <div class=" bg-gray-50 p-[20px]  text-center">
-            <img src="images/truffle-risotto.jpg" class="w-full h-[200px] pl-0  rounded-lg">
-            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
-            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
-            <a  class="text-[20px] text-red font-bold border border-red-400 border rounded-[50px] p-1 pl-8 pr-8 hover:text-red-200 transition" href="#"> view integrates</a>
-            </div>
-            <div class="bg-gray-50  p-[20px] text-center  ">
-            <img src="images/beef-wellington.jpg" class="w-full h-[200px]  rounded-lg">
-            <h4 class="text-[25px] text-redred font-bold m-2"> duck confit</h4>
-            <p class="text-[22px] text-gray-300 font-bold m-2"> Lorem ipsum dolor sit amet.</p>
-            <a  class="text-center text-[20px] text-red font-bold border border-red-400 border rounded-[70px] p-1 pl-8 pr-8 hover:text-red-200 transition " href="#"> view integrates</a>
-            </div>
-        </div>
-    </section>
-    <!--end body home-->
-    <!--start reservation section -->
-
-      <section class=" bg-gray-100  min-h-screen py-5 m-1">
-        <div class="w-[80%] m-auto grid grid-cols-1 lg:grid-cols-2  gap-20 items-center">
-
-            <div class="col-span-1">
-                <h1 class=" text-[25px] font-bold text-center m-[50px] mb-1">Make a Resrvation</h1>
-                <hr class="w-25 m-auto mb-5  text-gray-400 font-bold">
-
-            <form class="bg-gray-50 w-full p-4 rounded grid grid-cols-1 lg:grid-cols-2 gap-4 shadow-sm"">
-                <div class="md:col-span-2  ">
-                <input type="text" name="user" placeholder="Your Name"
-                class=" text-[20px] w-full border  border-gray-300 p-4 mb-4  rounded mt-2   ">
-
-                <input type="email" name="mail"placeholder="Your Name mail"
-                class=" text-[20px] w-full border border-gray-300 p-4 mb-4  rounded mt-2 "> 
-
-                <input type="number" name="phone" placeholder="Your phone number"
-                class=" text-[20px] w-full border border-gray-300 p-4 mb-4  rounded mt-2 ">
-
-                <input type="datetime-local" name="time/date"placeholder=""
-                class=" text-[20px] w-full border border-gray-300 p-4 mb-4  rounded mt-2 ">
-
-                <input type="time" name="time" placeholder="Your time"
-                class=" text-[20px] w-full border border-gray-300 p-4 mb-4  rounded mt-2 ">
-
-                <input type="number" name="count"placeholder="number of guests"
-                class=" text-[20px] w-full border border-gray-300 p-4 mb-4  rounded mt-2  ">
-
-                <textarea placeholder="Your Special Request"
-                 class=" text-[20px] w-full border border-gray-300 p-4 mb-4 rounded mt-2 col-span-2"
-                  >Special Request </textarea>
-                  <button class=" bg-red-500 text-[20px] w-full border border-red-300 p-4 mb-4 rounded mt-2 m-auto hover:text-yellow-600 transition ">reserve table </button>
-                </div>
-                </form> 
-            </div>
-            <div class=" w-full grid grid-cols-1 md:grid-cols-2 ">
-                    <img src="images/restaurant-tables.jpg" class="col-span-2 w-full h-[600px] object-cover rounded-lg m-auto flex items-center justify-center">
-                </div>
-        </div>
-      </section>
-
-    <!--end reservation section -->
+ <h2 id="demo"> java script code</h2>
+ <button onclick="document.getElementById('demo').innerHTML ='hellojava'"> click me </button>
+</center>
+<br>
+<br>
+<br>
+<br>
+<center>
+<button onclick="document.getElementById('demoo').innerHTML = Date( )"> click me to display date</button>
+<p id="demoo"> </p>
+</center>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="js/main.js"></script>
 </body>
 </html>
