@@ -1,0 +1,50 @@
+
+.navbar-brand:hover{
+  transition: 0.3s;
+  transform: scale(1.5);
+ 
+}
+.navbar-nav:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+
+}
+.card1{
+height: 600px;
+background: linear-gradient(135deg, #1e293b 0%, #475569 50%, #64748b 100%);
+}
+.card1 h1:hover{
+  
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+.card2{
+  
+    min-height: 100vh;
+background: linear-gradient(135deg, #979ea8 0%, #b2ddd4 50%, #515755 100%);
+}
+
+.herocard3 img:hover{
+  transition: 0.3s;
+  transform: skew(10deg);
+   box-shadow: 0 30px 30px rgba(228, 137, 137, 0.2);
+}
+.foot:hover{
+  transition: 0.3s;
+  transform:scale(1.2);
+   box-shadow: 0 30px 30px rgba(228, 137, 137, 0.2);
+}
+.contactcard5 h1:hover{
+  transition: 0.3s;
+  transform:scale(1.2);
+   text-shadow: 0 30px 30px rgba(228, 137, 137, 0.2);
+}
+
+.card2 h2:hover{
+  transition: 0.3s;
+  transform:skew(40deg);
+}
+.card4 h1:hover{
+  transition: 0.3s;
+  transform:skew(40deg);
+} 
