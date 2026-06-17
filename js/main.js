@@ -10,14 +10,10 @@ if (user=="" || user.length<3 || user.length >15) {
       return false;
 }
        return true;{
-} else if(mail=="" ||mail.indexOf("@,1") ==-1 || mail.indexOf(".com") ==-1 ){
+       } if((mail=="" ||mail.indexOf("@,1") ==-1 || mail.indexOf(".com") ==-1 )){
          result.innerHTML="enter user name more than 3 and less than 15";
          return false;
 }
-       return true;{
-    }
- 
-
-
-
+       return true;
+    
 }
