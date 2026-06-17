@@ -3,231 +3,395 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test 2</title>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>pro3</title>
+    <!--css files-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css"
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <div class="container">
-    <a class="navbar-brand fs-3" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<!--start navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <img class="m-1 rounded-circle"  src="img/download.jfif" width="60" height="50">
+    <a class="navbar-brand fs-4 active" href="#">fit life</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav px-5 ms-auto">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active fs-4" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fs-4" href="#">services</a>
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link fs-4" href="#">About</a>
+          <a class="nav-link">plans</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled fs-4">team</a>
+          <a class="nav-link ">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled fs-4">contact</a>
+          <a class="nav-link ">Contact</a>
         </li>
       </ul>
+        <a href="#" class="btn btn-outline-warning px-4 fs-5" > Join Now </a>
     </div>
   </div>
 </nav>
+<!--end navbar-->
 
-<section class="card1 d-flex justify-content-center align-items-center" >
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 ">
-             <h1 class="text-white fw-bold mt-0 text-center px-5 display-3" > Your Vision Engineered</h1> 
-    <p class="text-white  mt-0 text-center px-5 fs-4 mt-5">We architect transformative business strategies that transcend conventional<br> thinking and deliver extraordinary results</p>
-        </div>    
-    </div>
-    <div class="d-flex justify-content-center mt-4">
-    <a class="btn btn-outline-primary fs-3 rounded-pill px-5 text-white mt-4" href="#">
-        Begin your journey
-    </a>
-</div>
-</div>
-</section>
+<!--start hero section-->
 
- <section class="card2">
-<div class="container ">
+<section class="hero" style="background-image: url(/img/1.jpg);height:550px;">
+  <div class="container ">
     <div class="row">
-        <div class="col-md-12 mt-5">
-            <h2 class="fs-1 fw-bold text-center text-blue display-5">Our Strategic Arsenal</h2>
-        </div>
-    </div>
-</div>
-<div class="container ">
-    <div class="row">
-        <div class=" col-sm-12 col-md-6  mt-5">
-            <img class="w-100 mt-4 rounded-50 px-3" src="images/about-image-01.jpg ">
-        </div>
-        <div class="col-sm-12 col-md-6  mt-5 ">
-        <div class=" d-flex flex-column -4 align-items-center">
-           <p class=" border rounded-pill px-2 p-3 fs-6 fw-bold text-white-50 text-center mt-2 mb-4">
-        Strategic Architecture
-        Comprehensive business frameworks and competitive strategies </p>   
-            <p class=" border rounded-pill px-2 p-3 fs-6 fw-bold text-primary text-center mt-2 mb-4">
-        Strategic Architecture
-        Comprehensive business frameworks and competitive strategies </p> 
-          <p class=" border rounded-pill px-2 p-3 fs-6  fw-bold text-success text-center mt-2 mb-4">
-        Strategic Architecture
-        Comprehensive business frameworks and competitive strategies  </p>   
-        </div>
+      <div class="mt-5 me-auto ">
+        <div class=" bg-dark  col-12 col-lg-6 ">
+          <h4 class="fs-4 text-warning mt-5 "> Be Stronger than your excuses</h4>
+          <h1 class=" fs-1 fw-bold text-white">Transform <br> Your <span class=" fs-1  fw-bold text-danger" > Body</span>,<br>Transform Your Life</h1>
+          <h4 class="  fw-bold text-warning mt-2  "> Be Stronger than your excuses</h4>
+          <a href="#" class="btn btn-outline-warning m-3 px-5 fs-6" > Join Now</a>
+          <a href="#" class="btn btn-outline-warning px-5 fs-6" > Join Now</a>
+          </div>
         </div> 
-</div>
-    </div>
- </section>
+      </div>
+      <div class="row mt-3 bg-dark rounded-2 ">
+        <div class="col-md-3 col-6 stat-item text-center text-white fs-6 border-end">
+        <i class="fas fa-users "></i>
+        <h2>500+</h2>
+        <p>Happy Clients</p>
+      </div>
 
-<section class="herocard3 ">
-<div class="container-fluid" style="height:600px; background-color: #f8fafc;">
-  <div class="row">
-    <div class=" m-4 col-md-12">
-<h2 class="fs-1 fw-bold text-primary-50 mt-1 text-center ">Strategic Visionaries</h2>
+      <div class="col-md-3 col-6 stat-item text-center text-white fs-6 border-end">
+        <i class="fas fa-user"></i>
+        <h2>20+</h2>
+        <p>Expert Trainers</p>
+      </div>
+
+      <div class="col-md-3 col-6 stat-item text-center text-white fs-6 border-end">
+        <i class="fas fa-star"></i>
+        <h2>10+</h2>
+        <p>Years Experience</p>
+      </div>
+
+      <div class="col-md-3 col-6 stat-item text-center text-white fs-6">
+        <i class="fas fa-dumbbell "></i>
+        <h2>50+</h2>
+        <p>Fitness Programs</p>
+      </div>
+      </div>
     </div>
   </div>
-  <div class="row">
-    
-    <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="bg-white p-1 rounded-3 h-100">
-            <img class="rounded-circle " src="images/team-member-03.jpg">
-            <p>Michael Thompson<br>
-Chief Strategic Officer<br>
-Visionary leader with 25+ years architecting transformations for Fortune 100 companies,<br>
- specializing in digital innovation and organizational renaissance</p>
-        </div>
-    </div>
-
-    <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="bg-white p-1 rounded-3 h-100">
-            <img class="rounded-circle " src="images/team-member-01.jpg">
-            <p>David Rodriguez<br>
-Innovation Architect<br>
-Technology futurist and innovation catalyst with extensive experience in AI,<br>
- blockchain, and emerging technologies that reshape business paradigms.</p>
-        </div>
-    </div>
-
-    <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="bg-white p-1 rounded-3  h-100">
-            <img class="rounded-circle " src="images/team-member-02.jpg">
-            <p>Sarah Chen<br>
-Strategy Director<br>
-Former McKinsey principal with deep expertise in market expansion strategies,<br>
- competitive intelligence, and breakthrough innovation across technology and life sciences.</p>
-        </div>
-    </div>
-
-</div>
 </section>
+<!--end hero section-->
 
-<section class="card4 py-5" style=" min-height:100vh; background-color: #dde8eb;">
+<!-- start about us  section-->
+
+<section class="aboutus" style="background-color: rgb(39, 36, 36);">
   <div class="container">
-    <div class="row mb-5">
-      <div class="col-12">
-        <h1 class="fs-1 fw-bold text-primary text-center">Client Transformations</h1>
-      </div>
+    <div class="row ">
+      <div class=" col-12 col-lg-6 ">
+     <div class="image-box mt-4 rounded-2 position: relative "style="background:url(/img/2.jfif); height:300px; background-repeat: no-repeat; background-size:cover;">
+    <div class="box border text-white d-inline  position-absolute text-center  ">
+           <h1> 10+  </h1>
+           <p> years of experinces</p>
     </div>
+    </div>
+</div>
+
+    <div class=" col-12 col-lg-6 ">
+      <div class=" m-2  text-white">
+       <h4 class="mt-4"> About US</h4>
+       <h3> we help you  become<br> the best version of you </h3>
+       <i class="fa-regular fa-circle-check mb-3" style="color: rgb(99, 230, 190);"> Professional Trainers</i><br>
+       <i class="fa-regular fa-circle-check mb-3" style="color: rgb(99, 230, 190);">  Modern Equipment</i><br>
+       <i class="fa-regular fa-circle-check mb-3" style="color: rgb(99, 230, 190);">  Nutrition Guidances</i><br>
+         <a href="#" class="btn btn-outline-warning m-3 px-5 fs-5" > Read More</a>
+      </div>
+    </div> 
   
-    <div class="row g-4 justify-content-center">
-
-      <div class="col-sm-12 col-md-6">
-        <div class="bg-white rounded-3 p-4 lh-lg fs-6 shadow-sm h-100">
-          StrategicPro didn't just transform our business model—they revolutionized our entire industry perspective.
-          <br><br>
-          <span class="fw-bold text-dark">Their strategic insights generated 200% revenue growth within 24 months.</span>
-        </div>
-      </div>
-
-      <div class="col-sm-12 col-md-6">
-        <div class="bg-white rounded-3 p-4 lh-lg fs-6 shadow-sm h-100">
-          StrategicPro didn't just transform our business model—they revolutionized our entire industry perspective.
-          <br><br>
-          <span class="fw-bold text-dark">Their strategic insights generated 200% revenue growth within 24 months.</span>
-        </div>
-      </div>
-
-      <div class="col-sm-12 col-md-6">
-        <div class="bg-white rounded-3 p-4 lh-lg fs-6 shadow-sm h-100">
-          StrategicPro didn't just transform our business model—they revolutionized our entire industry perspective.
-          <br><br>
-          <span class="fw-bold text-dark">Their strategic insights generated 200% revenue growth within 24 months.</span>
-        </div>
-      </div>
-
-    </div>
+  </div>
   </div>
 </section>
 
-<section class="contactcard5 py-5" style=" min-height:100vh; background:linear-gradient(135deg, #1e293b 0%, #475569 100%);">
+<!-- end about us section -->
+
+<!--start our servicse section-->
+
+<section class="servicse" style="background-color: rgb(39, 36, 36);">
+   <div class="container-fluid">
+    <div class="row">
+       <div class="col-12">
+            <h4 class="text-white-50 text-center mt-4">our services</h4>
+            <p class="text-white text-center fs-5 font-Tajawal"> What We Offers</p>
+          </div>
+      <div class="col-12 justify-content-evenly">
+        <div class="row mt-1 bg-dark rounded-2 ">
+      
+      <div class="col-md-3 col-6 col-lg-2  start-item text-center text-white fs-6 border-end">
+        <i class="fas fa-users "></i>
+        <h5>personal traning</h5>
+        <p>Happy Clients</p>
+      </div>
+
+      <div class="col-md-3 col-6 col-lg-2  start-item text-center text-white fs-6 border-end">
+        <i class="fa-solid fa-heart-pulse fa-lg" style="color: rgb(255, 212, 59);"></i>
+        <h5>cardio traning</h5>
+        <p>Expert Trainers</p>
+      </div>
+
+      <div class="col-md-3 col-6 col-lg-2 start-item text-center text-white fs-6 border-end">
+        <i class="fa-solid fa-person-hiking fa-lg" style="color: rgb(255, 212, 59);"></i>
+        <h5>weight loss</h5>
+        <p>Years Experience</p>
+      </div>
+
+      <div class="col-md-3 col-6  col-lg-2 start-item text-center text-white fs-6 border-end">
+        <i class="fa-regular fa-heart fa-lg" style="color: rgb(255, 212, 59);"></i>
+        <h5>Nutrition plans</h5>
+        <p>Fitness Programs</p>
+      </div>
+
+      <div class="col-md-3 col-6 col-lg-2 start-item text-center text-white fs-6 border-end">
+       <i class="fa-solid fa-person-walking fa-lg" style="color: rgb(255, 212, 59);"></i>
+        <h5>yogaa classes</h5>
+        <p>Fitness Programs</p>
+      </div>
+
+      <div class="col-md-3 col-6  col-lg-2 start-item text-center text-white fs-6 border-end">
+        <i class="fa-solid fa-user-group fa-lg" style="color: rgb(99, 230, 190);"></i>
+        <h5>stength training</h5>
+        <p>Fitness Programs</p>
+      </div>
+
+    </div>
+   </div>
+</section>
+
+<!--end our servicse section-->
+
+<!---start membership section-->
+
+<section class="membership" style="background-color: rgb(39, 36, 36);">
+   <div class="container-fluid">
+    <div class="row justify-content-center g-2">
+       <div class="col-12">
+            <h4 class="text-white-50 text-center mt-4">Membership Planes</h4>
+            <p class="text-white text-center fs-5 font-Tajawal"> Choose your plane</p>
+          </div>
+
+      <div class=" row justify-content-center">
+      <div class="col-sm-12 col-md-3 me-3 p-0 text-center text-white fs-6 border mb-2 ">
+        <i class=" text-warning"> Basic </i>
+        <h5 class="fw-bold">$ 29 /month</h5>
+        <ul class="mx-5 text-warning">
+          <li class=" mx-1"> gym access</li>
+          <li class=" mx-1"> gym access</li>
+          <li class=" mx-1"> gym access</li>
+        </ul>
+        <a href="#"  class="btn btn-outline-warning px-5 fs-6 mt-2 mb-2"> Chosse Plan</a>
+      </div>
+
+      <div class="col-sm-12 col-md-3 me-3  px-0 text-center text-white fs-6 border mb-2 ">
+        <i class=" text-warning"> Standerd </i>
+        <h5 class="fw-bold">$ 49 /month</h5>
+        <ul class="mx-5 text-warning">
+          <li class=" mx-1"> gym access</li>
+          <li class=" mx-1"> gym access</li>
+          <li class=" mx-1"> gym access</li>
+        </ul>
+        <a href="#"  class="btn btn-outline-warning px-5 fs-6  mt-2 mb-2"> Chosse Plan</a>
+      </div>
+
+      <div class="col-sm-12 col-md-3 me-3 px-0 text-center text-white fs-6 border mb-2 ">
+        <i class=" text-warning"> Basic </i>
+        <h5 class="fw-bold">$ 29 /month</h5>
+        <ul class="mx-5 text-warning">
+          <li class=" mx-1"> gym access</li>
+          <li class=" mx-1"> gym access</li>
+          <li class=" mx-1"> gym access</li>
+        </ul>
+        <a href="#"  class="btn btn-outline-warning px-5 fs-6 mt-2 mb-2"> Chosse Plan</a>
+      </div>
+   </div>
+   </div>
+   </div>
+</section>
+
+<!---end membership section-->
+
+
+<!---start client section-->
+
+<section class="client py-5" style="background-color: rgb(39, 36, 36);">
 <div class="container">
-  <div class="row">
-    <div class="col-12">
-      <h1 class="fs-1 fw-bold text-white text-center m-3 mb-5">Initiate Your Transformation</h1>
-      <h4 class="fs-5 fw-bolder text-light text-center m-3 lh-lg mb-3">Ready to transcend conventional business boundaries? Let's architect your<br> strategic future together.</h4>
+  <div class=" row ">
+    <div class="col-12 mt-1 text-center">
+     <h5 class=" mt-1 text-warning text-center"> What Our Client Say</h5>
+    </div>
+    </div>
+
+  <div class="row justify-content-center g-4 ">
+    <!---card1-->
+    <div class="col-12 col-md-4 ">
+      <div class=" card1 bg-black text-white border-secondary p-2 h-100 rounded-3 ">
+      <div class="d-flex align-items-center ms-3 mt-0 ">
+     <img src="img/download3.png " width="70" height="70" class="rounded-circle me-2">
+      <div>
+      <h4 class="text-warning mb-1 "> ★★★★★  <br> sara.j </h4>
+      <p class="mb-0 text-light">FitLife changed my life! The trainers are amazing.</p>
+        </div>                    
+      </div>
+      </div>
+    </div>
+
+    <!--card2-->
+
+    <div class="col-12 col-md-4 ">
+      <div class=" card1 bg-black text-white border-secondary p-3 h-100  rounded-3">
+      <div class="d-flex align-items-center ms-3 mt-0 ">
+     <img src="img/images1.png " width="70" height="70" class="rounded-circle me-2">
+      <div>
+      <h4 class="text-warning mb-1 "> ★★★★★  <br> mohamed.j</h4>
+      <p class="mb-0 text-light">FitLife changed my life! The trainers are amazing.</p>
+        </div>                    
+      </div>
+      </div>
+    </div>
+
+    <!--card3-->
+
+    <div class="col-12 col-md-4 ">
+      <div class=" card1 bg-black text-white border-secondary p-3 h-100 rounded-3 ">
+      <div class="d-flex align-items-center ms-3 mt-0 ">
+     <img src="img/images2.jfif " width="70" height="70" class="rounded-circle me-2">
+      <div>
+      <h4 class="text-warning mb-1 "> ★★★★★  <br> Tamer.j</h4>
+      <p class="mb-0 text-light">FitLife changed my life! The trainers are amazing.</p>
+        </div>                    
+      </div>
+      </div>
     </div>
   </div>
-  <div class="row d-flex justify-content-center ">
-    <div class="  col-sm-12 col-lg-6">
-       <h5 id="result" class="fs-5 text-danger"></h5>
-      <form onsubmit=" return validateData()" action="#">
-          <div class="row g-4">
-            <div class="col-sm-6">
-              <input id="userfirst" type="text" name="firstname" placeholder="First Name" class="form-control form-control-lg text-dark bg-white border-opacity-25 shadow-lg rounded-4 p-3 ">
-            </div>
-            
-            <div class="col-sm-6">
-              <input id="userlast" type="text" name="lastname" placeholder="Last Name" class="form-control form-control-lg text-dark bg-white border-opacity-25 shadow-lg rounded-4 p-3">
-            </div>
+</div>
+</section>
 
-            <div class="col-sm-6">
-              <input id="mail" type="email" name="mail" placeholder="E-mail Adress" class="form-control form-control-lg text-dark bg-white border-opacity-25 shadow-lg rounded-4 p-3">
-            </div>
+<!---end client section-->
 
-            <div class="col-sm-6">
-              <input id="phone" type="tel" name="phone" placeholder="Phone Number" class="form-control form-control-lg text-dark bg-white border-opacity-25 shadow-lg rounded-4 p-3">
-            </div>
+<!-- start contactus section -->
 
-            <div class="col-sm-12">
-           <textarea id="userdesciption" name=" text" placeholder="Write a description of your vision" class="p-2 w-100 " ></textarea>
-            </div>
-            
-            <div class="col-12 text-center mt-2">
-              <button id="logn" type="submit" class="btn btn-outline-primary btn-lg p-3 shadow rounded-pill">launch strategic partenrship</button>
+<section class="contactus" style="background-color: rgb(39, 36, 36);">
+  <div class="container">
+    <div class="row justify-content-center ">
+      <div class="col-12 bg-dark  mt-2 ">
+     <div class="row">
+  <div class="col-12 col-lg-4">
+    <h6 class="text-warning p-2"> get in touch</h6>
+    <h5 class="text-white p-1"> WE'd love To hear From you </h5>
+    <p class="text-white p-1"> Have quetions or ready to start your fitness? </p>
+    <ul class="px-2">
+    <i class="fa-solid fa-phone fa-sm px-2" style="color: rgb(54, 142, 115);">  + 0125532569874  </i> <br>
+    <i class="fa-regular fa-envelope fa-sm px-2" style="color: rgb(54, 142, 115);">  info@username.com</i><br> 
+    <i class="fa-light fa-sun px-2" style="color: rgb(54, 142, 115);"> 123 fitnessmmmmmmmmm </i>
+    </ul>
+  </div>
+  
+  <div class="col-12 col-lg-4">
+    <h6 id="result"class="text-warning"></h6>
+    <form class=" mt-1  border border-secondary rounded-4 p-1" onsubmit=" return sendmessag()">
+      <input type="text"  name="user" placeholder="your name" id="user" class="mb-2 form-control d-block w-100 fs-6">
+      <input type="email" name="mail" placeholder="your mail" id="mail" class="mb-2 form-control">
+      <input type="text"  name="sub" placeholder="your subject" id="sub" class="mb-2 form-control d-block w-100">
+      <textarea class="form-control mb-3" rows="5" col="3" placeholder="Message"></textarea>
+      <input type="submit" value="send Message" class="btn btn-outline-success w-100 fs-5 ">
+    </form>
+  </div>
+
+  <div class="col-12  col-lg-4">
+    <img src="img/images3.jfif" class=" w-100 ">
+  </div>
+  </div>
+  </div>
+</div>
+      </div>
+  
+</section>
+
+<!-- end contactus section -->
+
+
+<!-- start footer section -->
+
+<section class="footer" style="background-color: rgb(39, 36, 36);">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-6 col-md-3 d-flex align-items-center  mb-0 ">
+            <img src="img/images111.png"  width="70" height="50" class=" rounded-circle mt-0 ">
+          <div>
+            <h5 class="text-white-50 text-right mt-0"> fit fitenees</h5>
+            <p class="text-white-50 text-right mt-0 mb-0"> fit fitenees</p>
             </div>
           </div>
-        </form>
-</div>
 
+          <div class=" col-6 col-md-2  d-flex align-items-center  mb-0 ">
+            <div>
+            <h5 class="text-white text-center mt-5 d-block"> Quick links </h5>
+            <a  href= "#" class="text-white-50 text-center mt-1 d-block text-decoration-none "> Home</a>
+            <a  href= "#" class="text-white-50 text-center mt-1 d-block text-decoration-none "> About</a>
+            <a  href= "#" class="text-white-50 text-center mt-1 d-block text-decoration-none "> Serviecs</a>
+            </div>
+          </div>
 
+            <div class=" col-6 col-md-2 d-flex align-items-center mb-0">
+            <div>
+            <a  href= "#" class="text-white-50 text-center mt-5 d-block text-decoration-none "> Home</a>
+            <a  href= "#" class="text-white-50 text-center mt-1 d-block text-decoration-none "> About</a>
+            <a  href= "#" class="text-white-50 text-center mt-1 d-block text-decoration-none "> Serviecs</a>
+            </div>
+            </div>
 
+            <div class=" col-6 col-md-2 d-flex align-items-center mt-4" > 
+            <div>
+            <i class="fa-brands fa-facebook me-2 fa-xl"  style="color: rgb(116, 192, 252);"></i>
+            <i class="fa-brands fa-instagram me-2 fa-xl" style="color: rgb(235, 238, 243);"></i>
+            <i class="fa-solid fa-house me-2 fa-xl" style="color: rgb(235, 238, 243);"></i>
+            </div>
+            </div>
+
+            <div class=" col-6 col-md-2 d-flex align-items-center mt-1">
+            <div>
+            <p   class="text-white text-center mt-1 d-block fs-5 mt-5 "> New letters</p>
+            <p   class="text-white-50 text-center mt-1 d-block t "> subscribe to get updates</p>
+            </div>
+          </div>
+
+            <div class="row mt-0"> 
+              <p class="text-white-50 text-right mt-1 mb-1 fs-6"> @ fit fitenees & gym <br> all reserved rights for fiteness gym </p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </div>
 
 </section>
 
-<footer class="foot py-3" style=" height:20vh; background:linear-gradient(135deg, #63799c 0%, #475569 100%);"" >
-<div class="container">
-  <div class="row mt-2">
-    <div class=" col-12 col-lg-4 mb-2 text-center ">
-      <a class=" text-decoration-none text-white fs-5 p-2" href="#"> priavcy policy</a>
-      <a class=" text-decoration-none text-white fs-5 p-2"href="#"> terms of linces</a>
-      <a class=" text-decoration-none text-white fs-5 p-1 "href="#"> carrers</a>
-    </div>
-
-    <div class=" col-12 col-lg-4 mb-2 text-center ">
-      <h6 class="fs-6 ">© 2025 StrategicPro.All rights reserved</h6>
-    </div>
-
-    <div class=" col-12 col-lg-4 mb-2  text-center">
-      <h6 class="fs-6 text-white-50 ">Design:ManalRamadan</h6>
-    </div>
-    
-  </div>
-</div>
-</footer>
+<!-- end footer section -->
 
 
 
@@ -238,12 +402,7 @@ Former McKinsey principal with deep expertise in market expansion strategies,<br
 
 
 
-
-
-
-
-
-
+    <!--js files-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
