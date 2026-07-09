@@ -65,23 +65,29 @@ function getapi( ){
         if(this.readyState==4 && this.status==200){
             var result=this.responseText;
             var mo=JSON.parse(result);
-            var ali=mo.data.recipes;
+            var ali=mo.products;
             basket="";
             for(i=0;i<ali.length;i++){
 
                 var cartoon= 
                              `<div class="col-md-4  text-center mb-5 ">
-                               <img src="${ali[i].image_url}" class="w-100" style = 'height:350px'>
-                                <h4>${ali[i].title}</h4>
-                                <h4>${ali[i].publisher}</h4>
-                                <h6>${ali[i].id}</h6>
+                               <img src="${ali[i].images}" class="w-100" style = 'height:350px'>
+                                <h4>title:${ali[i].title}</h4>
+                                <h4>description:${ali[i].description}</h4>
+                                <h4>category:${ali[i].category}</h4>
+                                <h4>price:${ali[i].price}</h4>
+                                <h4>discountPercentage:${ali[i].discountPercentage}</h4>
+                                <h4>rating:${ali[i].rating}</h4>
+                                <h4>stock:${ali[i].stock}</h4>
+                                <h6>id:${ali[i].id}</h6>
+                                
                                 </div>`; 
                                 basket=basket+cartoon; 
             }
           document.querySelector(".test").innerHTML= basket;
         }
     }
-    xhttp.open("GET","https://forkify-api.jonas.io/api/v2/recipes?search=pizza" ,true)
+    xhttp.open("GET","https://dummyjson.com/products" ,true)
     xhttp.send()
 };
 
